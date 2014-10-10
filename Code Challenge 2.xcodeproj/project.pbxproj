@@ -14,6 +14,10 @@
 		348A05B519E81FD300AB7844 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348A05B419E81FD300AB7844 /* Images.xcassets */; };
 		348A05B819E81FD300AB7844 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348A05B619E81FD300AB7844 /* LaunchScreen.xib */; };
 		348A05C419E81FD300AB7844 /* Code_Challenge_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A05C319E81FD300AB7844 /* Code_Challenge_2Tests.m */; };
+		348A05CF19E820FA00AB7844 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A05CE19E820FA00AB7844 /* City.m */; };
+		348A05D219E827D100AB7844 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A05D119E827D100AB7844 /* DetailViewController.m */; };
+		348A05D519E830B700AB7844 /* WikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A05D419E830B700AB7844 /* WikiViewController.m */; };
+		348A05D819E838FA00AB7844 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 348A05D719E838FA00AB7844 /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		348A05BD19E81FD300AB7844 /* Code Challenge 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code Challenge 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348A05C219E81FD300AB7844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		348A05C319E81FD300AB7844 /* Code_Challenge_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Code_Challenge_2Tests.m; sourceTree = "<group>"; };
+		348A05CD19E820FA00AB7844 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		348A05CE19E820FA00AB7844 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		348A05D019E827D100AB7844 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		348A05D119E827D100AB7844 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		348A05D319E830B700AB7844 /* WikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiViewController.h; sourceTree = "<group>"; };
+		348A05D419E830B700AB7844 /* WikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiViewController.m; sourceTree = "<group>"; };
+		348A05D619E838FA00AB7844 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		348A05D719E838FA00AB7844 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,14 @@
 				348A05AC19E81FD300AB7844 /* AppDelegate.m */,
 				348A05AE19E81FD300AB7844 /* ViewController.h */,
 				348A05AF19E81FD300AB7844 /* ViewController.m */,
+				348A05D019E827D100AB7844 /* DetailViewController.h */,
+				348A05D119E827D100AB7844 /* DetailViewController.m */,
+				348A05D319E830B700AB7844 /* WikiViewController.h */,
+				348A05D419E830B700AB7844 /* WikiViewController.m */,
+				348A05CD19E820FA00AB7844 /* City.h */,
+				348A05CE19E820FA00AB7844 /* City.m */,
+				348A05D619E838FA00AB7844 /* CustomTableViewCell.h */,
+				348A05D719E838FA00AB7844 /* CustomTableViewCell.m */,
 				348A05B119E81FD300AB7844 /* Main.storyboard */,
 				348A05B419E81FD300AB7844 /* Images.xcassets */,
 				348A05B619E81FD300AB7844 /* LaunchScreen.xib */,
@@ -219,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348A05D219E827D100AB7844 /* DetailViewController.m in Sources */,
+				348A05D819E838FA00AB7844 /* CustomTableViewCell.m in Sources */,
 				348A05B019E81FD300AB7844 /* ViewController.m in Sources */,
+				348A05D519E830B700AB7844 /* WikiViewController.m in Sources */,
 				348A05AD19E81FD300AB7844 /* AppDelegate.m in Sources */,
+				348A05CF19E820FA00AB7844 /* City.m in Sources */,
 				348A05AA19E81FD300AB7844 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
